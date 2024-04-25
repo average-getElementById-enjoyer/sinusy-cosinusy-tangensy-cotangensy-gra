@@ -63,3 +63,5 @@ correct5.addEventListener("click", ()=>{
     hideAllSections()
     showSection("win")
 })
+
+alert("Stronę wykonał: Rafał Zalewski")
