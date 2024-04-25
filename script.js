@@ -64,4 +64,4 @@ correct5.addEventListener("click", ()=>{
     showSection("win")
 })
 
-alert("Stronę wykonał: Rafał Zalewski")
+alert("Stronę wykonał: Rafał Zalewski.")
