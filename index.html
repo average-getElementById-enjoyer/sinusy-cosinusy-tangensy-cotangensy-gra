@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table style="height: 100vh;">
+        <tr>
+            <td class="tv_screen">
+                <img src="triangle1.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td class="interaction">
+                <div class="answers" id="answers1">
+                    <p>Sinus kąta α</p>
+                    <button class="odp_1_a incorrect"" id="">b/c</button>
+                    <button class="odp_1_b" id="correct1">a/c</button><br>
+                    <button class="odp_1_c incorrect"" id="">a/b</button>
+                    <button class="odp_1_d incorrect"" id="">b/a</button>
+                </div>
+                <div class="answers hidden" id="answers2">
+                    <p>Tangens kąta α</p>
+                    <button class="odp_2_a incorrect"" id="">c/a</button>
+                    <button class="odp_2_b incorrect"" id="">b/a</button><br>
+                    <button class="odp_2_c" id="correct2">a/b</button>
+                    <button class="odp_2_d incorrect"" id="">a/c</button>
+                </div>
+                <div class="answers hidden" id="answers3">
+                    <p>Cosinus kąta α</p>
+                    <button class="odp_3_a" id="correct3">b/c</button>
+                    <button class="odp_3_b incorrect"" id="">c/b</button><br>
+                    <button class="odp_3_c incorrect"" id="">a/b</button>
+                    <button class="odp_3_d incorrect"" id="">a/c</button>
+                </div>
+                <div class="answers hidden" id="answers4">
+                    <p>Cotangens kąta α</p>
+                    <button class="odp_4_a incorrect"" id="">c/b</button>
+                    <button class="odp_4_b incorrect"" id="">b/c</button><br>
+                    <button class="odp_4_c incorrect"" id="">a/c</button>
+                    <button class="odp_4_d" id="correct4">b/a</button>
+                </div>
+                <div class="answers hidden" id="answers5">
+                    <p>Sinus i Cosinus kąta α</p>
+                    <button class="odp_5_a incorrect">c/a oraz b/c</button>
+                    <button class="odp_5_b" id="correct5">a/c oraz b/c</button><br>
+                    <button class="odp_5_c incorrect"">a/b oraz b/a</button>
+                    <button class="odp_5_d incorrect"">b/c oraz c/b</button>
+                </div>
+                <div class="lose hidden" id="lose">
+                    <p>Zła odpowiedź</p>
+                    <button class="restart">🔄</button>
+                </div>
+                <div class="win hidden" id="win">
+                    <p>Wszystkie odpowiedzi prawidłowe</p>
+                    <button class="restart">🔄</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
